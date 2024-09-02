@@ -1,18 +1,16 @@
 
 
-""" x = input("Enter a Number")
+x = input("Enter a Number")
 
-tek mi çift mi?
+#tek mi çift mi?
 
 if (int(x) % 2 ==0):
   print('Even')
 else :
   print ('Odd')
 
- """
 
-""" 
-3 tane not al ve bunların ortalamasını çıkar sonra da 90dan fazlaysa burs ver
+# 3 tane not al ve bunların ortalamasını çıkar sonra da 90dan fazlaysa burs ver
 
 sum = 0
 average = 0
@@ -30,8 +28,7 @@ if (average > 90):
 else:
   print("Your average is : ",average)
 
- """
-""" for i in range (3):
+for i in range (3):
   username= input('Please enter username: ')
   password= input('Please enter password: ')
   if(username == "admin" and password == "1234" and i <3):
@@ -41,31 +38,25 @@ else:
   elif(i==3):
     print("BLOCKED")
 
- """
-""" for i in range(1,100,2):
-  print(i) """
+for i in range(1,100,2):
+  print(i) 
 
 #functıons
 
+def hello(name):
+  print('welcome' + name)
+  print('to our site')
 
-""" def hello(name):
-  print('annen' + name)
-  print('bacın')
+hello("mehmetcan ece")
 
-hello("yarram")
-
- """
-
-""" def multiply(number1,number2):
+def multiply(number1,number2):
   return number1*number2
 
 
 
 print(multiply(3,9))
 
- """
 
-""" 
 def main():
   value=99
   print("The value is ", value)
@@ -79,36 +70,30 @@ def change_me(arg):
   print('Now the value is ',arg)
 
 
-main() """
-
+main() 
 #KEYWORD ARGS
 
-""" def hello(first,middle,last):
+def hello(first,middle,last):
   print("Hello " + str(first)+ " " + str(middle)+" " + str(last))
 
 
 hello(last="ece",first="gozde",middle="caliskan")
 
- """
-""" 
+
 def greeting():
   first_name=input("Hello, please give us your name: ")
   last_name=input("And your last name: ")
   print("Welcome " + str(first_name) + " " + str(last_name))
 
 greeting()
- """
-
-
-""" 
+ 
 def foo (x,y) :
   def bar (z) :
     return z * 2
   return bar(x) + y
 
-foo(2,3) """
-
-""" def welcome_guest():
+foo(2,3) 
+def welcome_guest():
     print("Hello, welcome to our hotel!")
 
     def hotel_info():
@@ -123,19 +108,15 @@ foo(2,3) """
 
 # Call the outer function
 welcome_guest()
- """
-
-""" import random
+import random
 
 
 x=random.randint(1,6) #1,6 arası verir
 y=random.randint() #0-1 arası verir
 
 
-print(x) """
-
-
-""" class Phone:
+print(x)
+class Phone:
   
 
   def __init__(self,model,name,year):
@@ -157,8 +138,6 @@ print(phone1.model)
 
 phone1.working()
 phone1.stop()
- """
-"""     
 class Coordinate():
   def __init__(self, x, y):
     self.x = x
@@ -175,9 +154,7 @@ zero = Coordinate(0,0)
 
 print(c.distance(zero))
 
- """
-
-""" class Animal():
+class Animal():
   def __init__(self,age,name = None):
     self.age = age
     self.name = name if name is not None else " "
@@ -204,7 +181,7 @@ animal2= Animal(9)
 
 animal2.set_name("Lucky")
 
-print(animal2) """
+print(animal2) 
 
 
 
